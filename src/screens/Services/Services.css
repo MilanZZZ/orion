@@ -1,0 +1,53 @@
+.image-services{
+    /* --width:70vw;
+    width: var(--width);
+    height: var(--width * 0.946) */
+    width: 65rem;
+    margin:0;
+    margin-top:6rem;
+    margin-left:15rem
+   
+   
+   
+
+}
+
+.services-text{
+    margin-left: 4rem;
+}
+
+.services-title-size{    
+        margin-top:1rem;
+}
+
+.bullet-point{
+    width:100%;
+    align-self:flex-start;
+}
+
+.bullet-list{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-inline-start: 0em;
+    font-size:2.5rem;
+    font-family: 'AgeoPersonalUse';
+    font-weight:500;
+    list-style-type: none;
+    line-height: 3rem;
+    row-gap: 2.5rem;
+    
+}
+.bullet-img{
+    height:2.6rem;
+    width:2.6rem;
+    margin-left:0;
+
+}
+
+.bullet-list li {
+  display: flex;
+  align-items: flex-start;
+ column-gap: 1.9rem;
+}

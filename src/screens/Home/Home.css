@@ -1,0 +1,32 @@
+
+
+.image-home{
+    width: 120rem;
+    margin-right: 0rem;
+    overflow: hidden;
+    
+}
+.home-text{
+    row-gap: 2rem;
+    margin-left: 15rem;
+}
+.button-container-home{
+    margin-top: 3.7rem;
+}
+.home-subtitle{
+    width: 55.5rem;
+}
+.title-size{
+ 
+        font-family: 'AgeoPersonalUseBold';
+        font-style: bolder;
+        font-weight: 200;
+        font-size: 7.4rem;
+        line-height: 8.2rem;
+        text-align: start;
+        width: 49.2rem;
+        overflow:hidden;
+     
+        
+}
+
