@@ -6,6 +6,9 @@
     overflow: hidden;
     
 }
+.home-layout{
+    height: 72vh;
+}
 .home-text{
     row-gap: 2rem;
     margin-left: 15rem;
