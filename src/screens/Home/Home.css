@@ -1,7 +1,7 @@
 
 
 .image-home{
-    width: 120rem;
+    width: 76.5rem;
     margin-right: 0rem;
     overflow: hidden;
     
@@ -20,6 +20,7 @@
  
         font-family: 'AgeoPersonalUseBold';
         font-style: bolder;
+        color: var(--main-dark-color);
         font-weight: 200;
         font-size: 7.4rem;
         line-height: 8.2rem;

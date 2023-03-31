@@ -14,10 +14,12 @@
 
 .services-text{
     margin-left: 4rem;
+    color: var(--main-dark-color);
 }
 
 .services-title-size{    
         margin-top:1rem;
+        color: var(--main-dark-color);
 }
 
 .bullet-point{

@@ -1,0 +1,57 @@
+.solutions-container{
+    height: 100vh;
+   
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.solution-top{
+    margin-bottom: 2.9rem;
+    font-weight: 700;
+
+
+    letter-spacing: 0.45em;
+}
+
+.solution-title{
+    text-align: center;
+    margin-bottom: 9rem;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:4.8rem;
+}
+
+.card{
+    display:flex;
+    width: 34.8rem;
+    height: 39.1rem;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    border: 0.1rem #E0E0E0 solid;
+    justify-content: center;
+    align-items: center;
+}
+.card-text{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 3rem;
+line-height: 3.8rem;
+margin-top:3.5rem;
+margin-bottom: 3rem;
+}
+.card-image{
+    width:11.7rem
+}
+.card-subtext{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 2rem;
+line-height: 2.5rem;
+text-align: center;
+}

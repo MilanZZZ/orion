@@ -35,8 +35,7 @@ const performance = [{
     imgUrL: images.graph,
 }]
 const newsletter = [{
-    topTitle: "OUR TEAM",
-    title: "Subscribe Our Newsleter",
+   
     subtitle: "Our goal is top at the heart of creativity services industry as a digital creator. In has a after comment",
     buttonText: "Subscribe Our Newsletter",
     imgUrL: images.letter,

@@ -7,6 +7,7 @@
     width: 50%;
    overflow: hidden;
    margin-left: 1rem;
+   color: var(--main-dark-color);
 }
 .top-text{
     color: var(--orange-color);

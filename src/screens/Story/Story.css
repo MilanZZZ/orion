@@ -2,6 +2,63 @@
     /* --width:70vw;
     width: var(--width);
     height: var(--width * 0.946) */
-    width: 60rem
+    width: 73.5rem;
+    margin-left: 0rem;
+    overflow: hidden;
+    margin-right: 15rem;
 
+
+}
+.story-subtitle{
+    width: 41rem;
+}
+.story-title{
+width:100%;
+}
+.story-text{
+    margin-left: 15rem;
+    margin-right: 0;
+    width: 44.1rem;
+}
+.line{
+    width:12.1rem;
+    height: .1rem;
+    background-color: #262626;
+    margin-top: 2.5rem;
+    margin-bottom:1rem;
+ 
+}
+.story-top{
+    letter-spacing: 0.45rem;
+    margin-bottom: 1rem;
+}
+.story-button{
+    padding-left: 5.2rem;
+    padding-right: 5.1rem;
+
+}
+
+.values{
+    display:flex;
+    margin-top:4.4rem;
+    column-gap: 2.8rem;
+    margin-bottom:6rem;
+    font-family: "AgeoPersonalUse";
+    font-size: 1.8rem;
+    font-weight: 600;
+  
+}
+.text-value{
+    line-height: 2.16rem;
+    margin-top: 0.5rem;
+
+}
+.team{
+color:#4F4F4F
+}
+.number{
+    font-size: 3rem;
+    font-family: "Inter";
+    font-weight: bolder;
+    line-height: 3.6rem;
 }

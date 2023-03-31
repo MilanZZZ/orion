@@ -5,17 +5,14 @@ import './Performance.css'
 const Performance = () => {
   return (
     <Page text={Text.performance} layout='layout-secondary'
-     imgContainerStyle='image-performance' imgStyle='image'/>
+     imgContainerStyle='image-performance' imgStyle='image' 
+     buttonStyleProp='performance-button'
+    topTextProp='top-performance' subtitleProp='subtitle-performance' textProp='text-performance'
+   
+    />
   )
 }
 
-// const Text1 = () => (
-//     <div className="dfs"> </div>
-// )
-// const Text2 = () => 
-//     <div className="dfa"></div>
 
-// const Text3 = () => 
-//     <div className="dfa"></div>;
 
 export default Performance;

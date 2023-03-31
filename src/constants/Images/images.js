@@ -13,6 +13,10 @@ import something from '../../assets/something.png';
 import start_img from '../../assets/start_img.png';
 import zoover from '../../assets/zoover.svg'
 import vector from '../../assets/Vector.svg';
+import facebook from '../../assets/facebook.svg';
+import twitter from '../../assets/twitter.svg';
+import linkedin from '../../assets/linkedin.svg';
+import submitArrow from '../../assets/submit-arrow.svg'
 
 export default {
     experience,
@@ -30,4 +34,8 @@ export default {
     start_img,
     zoover,
     vector,
+    facebook,
+    twitter,
+    linkedin,
+    submitArrow
 }

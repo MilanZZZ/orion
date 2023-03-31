@@ -4,7 +4,7 @@ import Text from '../../constants/Text/Text';
 import './Home.css'
 const Home = () => {
   return (
-    <Page text={Text.home} layout='layout' textProp='text home-text' titleProp='title-size' 
+    <Page idProp={'Home'} text={Text.home} layout='layout' textProp='text home-text' titleProp='title-size' 
     imgContainerStyle='image-home' imgStyle='image' buttonContainerProp='button-container-home' subtitleProp='home-subtitle' button={<BookADemoButtom />}/> 
   )
 }

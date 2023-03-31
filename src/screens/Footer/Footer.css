@@ -1,0 +1,133 @@
+
+.footer-button{
+    
+    border-radius: 0.4rem;
+    border: none;
+    padding-left: 1.1rem;
+    padding-right: 1rem;
+    padding-top: 0.8rem;
+    padding-bottom:0.8rem;
+
+    
+}
+
+.button-container :nth-child(2){
+    padding-left: 0.853rem;
+    padding-right: 0.865rem;
+    padding-top: 1rem;
+    padding-bottom:0.9rem;
+}
+.button-container :nth-child(3){
+    padding-left: 0.847rem;
+    padding-right: 0.853rem;
+    padding-top: 0.9rem;
+    padding-bottom:0.9rem;
+}
+.image{
+ 
+ 
+}
+
+.footer-container{
+    background-color: #0B1B35;
+    color:white;
+    height: 41.6rem;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "AgeoPersonalUse";
+
+}
+.resources-column{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.values{
+    font-family: "AgeoPersonalUse";
+    font-size:1.6rem;
+    line-height: 100%;
+    margin: 0;
+    font-weight: 300;
+    margin-bottom: 2.8rem;
+    color:#F2F2F2;
+}
+.columns{
+    display: flex;
+    flex-direction: row;
+    column-gap: 17.6rem;
+}
+
+.text-margin{
+  
+}
+.button-container{
+    display: flex;
+    column-gap: 1.5rem;
+}
+.values-subtitle{
+    font-family: "AgeoPersonalUse";
+    font-size: 1.6rem;
+    line-height: 100%;
+    width: 23.6rem;
+    margin-top: 2.6rem;
+    margin-bottom: 6.4rem;
+}
+.footer-logo{
+
+}
+.div-line{
+    width:117rem;
+    background-color: #EDEDED ;
+    height: 0.1rem;
+}
+.copyright{
+    color:#F2F2F2;
+    font-size: 1.6rem;
+    margin-top: 4rem;
+  
+}
+.logo-column{
+    align-self: flex-start;
+}
+
+.resources{
+    font-size: 2rem;
+    margin-top: 5.3rem;
+    margin-bottom:3.9rem
+}
+
+.footer-form{
+    height: 4rem;
+    width:14rem;
+    padding-left:1.2rem;
+    border-radius: 1rem 0rem 0rem 1rem;
+    border:none;
+    background-color: #F2F2F2;
+    font-size: 1.2rem;
+    font-family: "Mulish";
+    font-weight: 500;
+
+}
+.submit{
+    border:none;
+    background-color: #F2F2F2;
+    height:4.2rem;
+    padding-right: 2rem;
+    margin: 0;
+    border-radius: 0rem 1rem 1rem 0rem;
+    
+    
+    
+}
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #514040;
+   
+}

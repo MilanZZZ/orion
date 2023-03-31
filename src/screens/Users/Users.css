@@ -1,0 +1,14 @@
+.image-row{
+    height:14rem;
+    overflow: hidden;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    background-color: var(--background-secondary);
+
+}
+
+.imagine{
+    width:20rem;
+}

@@ -2,6 +2,27 @@
     /* --width:70vw;
     width: var(--width);
     height: var(--width * 0.946) */
-    width: 55rem
-
+    width: 55.2rem;
+    margin-right: 7.9rem;
+    margin-left:15rem;
+    
 }
+
+.performance-button{
+    padding-left: 3.2rem;
+    padding-right:3.2rem;
+    padding-top: 2.4rem;
+    padding-bottom:2.3rem
+}
+
+.top-performance{
+    background-color: #F1F5F9;
+    color:#9CA3AF;
+    margin-bottom:1.8rem;
+    font-size: 1.4rem;
+}
+.subtitle-performance{
+    margin-top:1.3rem;
+    margin-bottom:3.6rem;
+}
+
