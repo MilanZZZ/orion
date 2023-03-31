@@ -35,7 +35,7 @@ const [ended, setEnded] = useState(false)
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 return(
-  <div className="values" id='count-up'>
+  <div className="value" id='count-up'>
     <div className='projects-done'><div className="number">   <CountUp start={startCounter ? 0 : null} end={1000} onEnd={() => setEnded(true)} duration={1.3} separator="" />{ended && <span>+</span>}</div><div className="text-value">Project Done</div></div>
     <div className='team'><div className="number"> <CountUp start={startCounter ? 0 : null} end={230} duration={1.2} separator="" /></div><div className="text-value">Our Team</div></div>
     <div className='team'><div className="number"> <CountUp start={startCounter ? 0 : null} end={900} duration={1.1} separator="" /></div><div className="text-value">Our Clients</div></div>
