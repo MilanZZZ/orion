@@ -4,15 +4,21 @@
     height: var(--width * 0.946) */
     width: 55.2rem;
     margin-right: 7.9rem;
-    margin-left:15rem;
+    margin-left:14.7rem;
+    margin-bottom: 9.418rem;
     
+}
+.perf{
+    margin-bottom: 9.418rem;
+    background-color: #F9F9F9;
 }
 
 .performance-button{
     padding-left: 3.2rem;
     padding-right:3.2rem;
     padding-top: 2.4rem;
-    padding-bottom:2.3rem
+    padding-bottom:2.3rem;
+    margin-bottom:11.6rem;
 }
 
 .top-performance{
@@ -20,9 +26,12 @@
     color:#9CA3AF;
     margin-bottom:1.8rem;
     font-size: 1.4rem;
+    margin-top:10.3rem;
 }
 .subtitle-performance{
     margin-top:1.3rem;
     margin-bottom:3.6rem;
+    width:50.9rem;
+    line-height: normal;
 }
 

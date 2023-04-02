@@ -10,8 +10,8 @@ const Services = () => {
   return (
     <Page idProp='Features' text={Text.services} layout='layout-secondary'
     imgContainerStyle='image-services' imgStyle='image'  
-    textProp='text services-text' titleProp='services-title-size'
-    buttonContainerProp='button-container-services'
+    textProp='text services-text' titleProp='services-title-size' topTextProp='top-services'
+    buttonContainerProp='button-container-services' buttonStyleProp='button-services'
 numbers={<PointList />}
    />
   )

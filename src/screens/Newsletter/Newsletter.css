@@ -7,7 +7,7 @@
 }
 
 .news-container{
-    height: 50vh;
+  margin-bottom: 11.4rem;
     align-items: flex-start;
 }
 
@@ -17,14 +17,12 @@
     color: var(--orange-color);
     font-family: "AgeoPersonalUse";
 font-style: normal;
-font-weight: 400;
+font-weight: 700;
 font-size: 1.6rem;
 line-height: 1.9rem;
 /* identical to box height, or 204% */
 margin-bottom: 1.9rem;
-
-
-letter-spacing: 0.12em;
+letter-spacing: 0.45em;
 text-transform: uppercase;
 }
 
@@ -36,7 +34,7 @@ text-transform: uppercase;
 }
 
 .cont{
-    height:50vh;
+   margin-top: 19.2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -54,15 +52,16 @@ text-transform: uppercase;
 }
 
 .news-form{
-    width:62.3rem;
-    height:6rem;
+  
     border-radius: 4.9rem;
     font-family: "AgeoPersonalUse";
-    box-shadow: 5px 0px 8px 0px rgba(0, 0, 0, 0.3);
-    border: none;
+    border: 0.1rem black solid;
    font-size: 2.4rem;
    font-weight: bold;
    padding-left: 7.7rem;
+   padding-right: 38.5rem;
+padding-top:2.4rem;
+padding-bottom: 2.4rem;
    margin-top: 5.1rem;
    margin-bottom: 5.1rem;
 }

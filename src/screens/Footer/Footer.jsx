@@ -15,7 +15,7 @@ const Footer = () => {
 
       <div className="resources-column logo-column">
 
-<div className="logo footer-logo"><img className={`image`}
+<div className="footer-logo"><img className={`image`}
        src={images.logo} alt='logo'/>
        </div>
     <p className='values values-subtitle'>You'll find your next home loan value you prefer.</p>

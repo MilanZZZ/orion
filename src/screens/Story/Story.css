@@ -6,6 +6,8 @@
     margin-left: 0rem;
     overflow: hidden;
     margin-right: 15rem;
+    margin-bottom: 27.3rem;
+    margin-top: 21.9rem;
 
 
 }
@@ -26,15 +28,22 @@ width:100%;
     background-color: #262626;
     margin-top: 2.5rem;
     margin-bottom:1rem;
+    font-family:Inter
  
 }
 .story-top{
     letter-spacing: 0.45rem;
     margin-bottom: 1rem;
+    margin-top: 24.8rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+font-weight: 700;
+letter-spacing: 0.45em;
 }
 .story-button{
     padding-left: 5.2rem;
     padding-right: 5.1rem;
+    margin-bottom: 24.1rem;
 
 }
 

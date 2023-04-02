@@ -31,8 +31,8 @@
 .footer-container{
     background-color: #0B1B35;
     color:white;
-    height: 41.6rem;
-  
+
+  width:100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,14 +51,21 @@
     font-size:1.6rem;
     line-height: 100%;
     margin: 0;
+    width:11.4rem;
     font-weight: 300;
     margin-bottom: 2.8rem;
     color:#F2F2F2;
+    cursor: pointer;
 }
 .columns{
     display: flex;
     flex-direction: row;
-    column-gap: 17.6rem;
+    column-gap: 16.4rem;
+    margin-left:13.5rem;
+    margin-right: 13.5rem;
+    margin-top: 4rem;
+    margin-bottom:5.6rem
+
 }
 
 .text-margin{
@@ -75,8 +82,10 @@
     width: 23.6rem;
     margin-top: 2.6rem;
     margin-bottom: 6.4rem;
+    
 }
 .footer-logo{
+width:13.7rem;
 
 }
 .div-line{
@@ -88,6 +97,7 @@
     color:#F2F2F2;
     font-size: 1.6rem;
     margin-top: 4rem;
+    margin-bottom: 3.9rem;
   
 }
 .logo-column{
@@ -96,7 +106,7 @@
 
 .resources{
     font-size: 2rem;
-    margin-top: 5.3rem;
+  
     margin-bottom:3.9rem
 }
 
