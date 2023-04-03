@@ -36,6 +36,11 @@
     border: 0.1rem #E0E0E0 solid;
     justify-content: center;
     align-items: center;
+    box-shadow: 0.1rem 0.1rem 0.9rem rgba(0, 0, 0, 0.1);
+    transition: scale 0.4s ease-in-out
+}
+.card:hover{
+scale:1.1;
 }
 .card-text{
     font-family: 'Mulish';
@@ -47,12 +52,13 @@ margin-top:3.5rem;
 margin-bottom: 3rem;
 }
 .card-image{
-    width:11.7rem
+    width:11.7rem;
+  
 }
 .card-subtext{
     font-family: 'Mulish';
 font-style: normal;
-font-weight: 700;
+font-weight: 500;
 font-size: 2rem;
 line-height: 2.5rem;
 text-align: center;

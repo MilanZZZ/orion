@@ -7,7 +7,7 @@ const Users = () => {
   return (
    <div className="image-row">
     {imageList.map((img, index)=>
-    <div className="imagine"><img className={`image`} src={img} alt='image'/></div>
+    <div className="imagine" key={`id-${index}`}><img className={`image`} src={img} alt='image'/></div>
     )}
    </div>
   )

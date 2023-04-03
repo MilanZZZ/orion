@@ -13,7 +13,7 @@ const Footer = () => {
 
       <div className="columns">
 
-      <div className="resources-column logo-column">
+      <div className="logo-column">
 
 <div className="footer-logo"><img className={`image`}
        src={images.logo} alt='logo'/>
@@ -69,7 +69,7 @@ const EmailForm = () => {
       <form  className='form-container' onSubmit={handleSubmit}>
           <input className='footer-form' type='email' value={email}
            onChange={(e) => setEmail(e.target.value)} placeholder="Enter your mail"/>
-            <button className='submit' type="submit"><img src={images.submitArrow}/></button>
+            <button className='submit' type="submit"><img className='image' src={images.submitArrow}/></button>
       </form>
       )
   }

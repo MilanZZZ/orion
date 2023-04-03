@@ -12,15 +12,15 @@ const Navbar = () => {
     <div className="navbar-container">
       <div className="logo"><img className={`image`}
        src={images.logo_white} alt='logo'/></div>
-       <div className="links">
+       <div className="links" >
         {Pages.map((link, index)=>(
-          <li key={`link-${index}`} className='link-list'>
-            <div className="wrapp-a">
+          <li key={`link-${index}`} className='link-list' >
+            <div className="wrapp-a" > 
 
-          <a onMouseEnter={() => setDash(dash.map((val, i) => i === index))}
+          <a  onMouseEnter={() => setDash(dash.map((val, i) => i === index))}
           onMouseLeave={() => setDash(dash.map(() => false))}
           className='link' href={`#${link}`}>{link}</a>
-           {dash[index]  &&<div className="dash"></div>
+           {<div className="dash"></div>
            }
            </div>
           </li>

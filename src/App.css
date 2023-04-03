@@ -17,7 +17,7 @@
   justify-content: center;
   align-items: center;
   background-color: #F9F9F9;
-  ;
+  
   overflow: hidden;
 
 }
@@ -53,10 +53,14 @@ padding:2rem;
 padding-left: 4.6rem;
 padding-right: 4.6rem;
 border: 0;
-
+cursor: pointer;
 margin-top:1rem;
+transition: background-color 0.2s, box-shadow 0.4s ease-in-out ;
 }
-
+.orange-button:hover{
+  background-color: #ff5900;
+  box-shadow: 0.1rem 0.1rem 2rem rgba(255, 102, 0, 0.5);
+}
 .demo-button{
   background-color: white;
   border-radius: 3.2rem;
@@ -71,7 +75,13 @@ padding:2rem;
 padding-left: 4.6rem;
 padding-right: 4.6rem;
 border: 1px solid black; 
-
+cursor: pointer;
 margin-top:1rem;
-margin-left:3rem
+margin-left:3rem;
+transition: all 0.3s ease-in-out;
+}
+
+.demo-button:hover{
+  filter: invert(100%);
+  outline:0.1rem white solid
 }

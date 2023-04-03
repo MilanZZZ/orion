@@ -34,7 +34,7 @@ li{
     height: 0.2rem;
     background-color: black;
     opacity:0;
-    transition: opacity 1.3s ;
+    transition: opacity 0.5s ;
     overflow: hidden;
 }
 .wrapp-a{
