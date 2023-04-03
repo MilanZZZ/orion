@@ -41,7 +41,7 @@ const Footer = () => {
   )}
 </div>
 
-<div className="resources-column">
+<div className="resources-column add-dis">
   <div className="resources">Get in touch</div>
   <EmailForm />
 </div>
