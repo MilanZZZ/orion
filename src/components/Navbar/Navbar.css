@@ -75,3 +75,16 @@ li{
 margin:0
     
 }
+
+@media only screen and (max-width:900px) {
+
+ .links{
+    display:none;
+ }   
+ .buttons{
+    margin:auto
+ }
+ .navbar-container{
+    width:100vw;
+ }
+}

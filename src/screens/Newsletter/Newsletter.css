@@ -1,87 +1,90 @@
-.image-news{
+.image-news {
     /* --width:70vw;
     width: var(--width);
     height: var(--width * 0.946) */
     width: 42.5rem
-
 }
 
-.news-container{
-  margin-bottom: 11.4rem;
+.news-container {
+    margin-bottom: 11.4rem;
     align-items: flex-start;
 }
 
-.top-title{
+.top-title {
     letter-spacing: 0.45rem;
     margin-bottom: 1rem;
     color: var(--orange-color);
     font-family: "AgeoPersonalUse";
-font-style: normal;
-font-weight: 700;
-font-size: 1.6rem;
-line-height: 1.9rem;
-/* identical to box height, or 204% */
-margin-bottom: 1.9rem;
-letter-spacing: 0.45em;
-text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    /* identical to box height, or 204% */
+    margin-bottom: 1.9rem;
+    letter-spacing: 0.45em;
+    text-transform: uppercase;
 }
 
-.news-title{
+.news-title {
     width: 100%;
     align-self: center;
     text-align: center;
     margin-bottom: 8.2rem;
 }
 
-.cont{
-   margin-top: 19.2rem;
+.cont {
+    margin-top: 19.2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
 }
 
-.subtitle-news{
+.subtitle-news {
     font-weight: bold;
 }
-.button-news{
+
+.button-news {
     padding-left: 23.8rem;
-    padding-right:23.7rem;
+    padding-right: 23.7rem;
     padding-top: 1.9rem;
-    padding-bottom:1.9rem;
+    padding-bottom: 1.9rem;
 }
 
-.news-form{
-  
-    
+.news-form {
+
+
     font-family: "AgeoPersonalUse";
-    border: 0 black solid;
-   font-size: 2.4rem;
-   font-weight: bold;
-   padding-left: 7.7rem;
-   padding-right: 38.5rem;
-padding-top:2.4rem;
-padding-bottom: 2.4rem;
-   margin-top: 5.1rem;
-   margin-bottom: 5.1rem;
+    border: 0.1rem black solid;
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding-left: 2.2rem;
+    width: 100%;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+
+    border-radius: 0.8rem;
+}
+.news-form-container{
+    width:67.395rem;
+    margin-top: 5.1rem;
+    margin-bottom: 5.1rem;
 }
 
-input:focus{
- outline: none;
-}
-input::placeholder{
-    color:black;
+input:focus {}
+
+input::placeholder {
+    color: black;
 }
 
 input::-webkit-input-placeholder {
     color: black;
-  }
+}
 
 input::-moz-placeholder {
     color: black;
-  }
-
-:-ms-input-placeholder{
-    color:black;
 }
 
+:-ms-input-placeholder {
+    color: black;
+}
