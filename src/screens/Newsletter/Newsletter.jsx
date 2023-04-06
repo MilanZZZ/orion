@@ -8,11 +8,12 @@ const Newsletter = () => {
       <Subscribe />
       <Page
         text={Text.newsletter}
-        layout="layout-reverse news-container"
+        layout="layout-reverse news-container "
         imgContainerStyle="image-news"
         imgStyle="image"
         subtitleProp="subtitle-news"
         buttonStyleProp="button-news"
+        textProp='text-news'
         numbers={<EmailForm />}
       />
     </div>

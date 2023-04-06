@@ -1,90 +1,147 @@
-.logo{
+.logo {
     width: 13.7rem;
-    margin-top: 3.7rem;
-
-    margin-left: 15rem;
     margin-right: 19.7rem;
 }
-.navbar-container{
-width: 100%;
-    display: flex;
-  margin:0;
-  padding:0;
-    flex-direction: row;
 
+.navbar-container {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
     align-items: center;
     overflow: hidden;
     font-family: "Mulish";
+    margin-top: 4rem;
 
 }
 
- a{
+.container {
+    margin-left: 15rem;
+    
+    margin-right: 15rem;
+}
+
+a {
     text-decoration: none;
-    color:black
+    color: black
 }
-li{
+
+li {
     list-style-type: none;
 }
-.link{
-  
-    margin:0;
+
+.link {
+
+    margin: 0;
 }
-.dash{
+
+.dash {
     width: 1rem;
     height: 0.2rem;
     background-color: black;
-    opacity:0;
-    transition: opacity 0.5s ;
+    opacity: 0;
+    transition: opacity 0.5s;
     overflow: hidden;
 }
-.wrapp-a{
+
+.wrapp-a {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .wrapp-a:hover .dash {
     opacity: 1;
-  }
-.links{
+}
+
+.links {
     display: flex;
     column-gap: 4.3rem;
     font-size: 1.8rem;
     font-weight: 700;
-    margin-top: 4rem;
+
 }
-.login{
+
+.login {
     font-size: 1.8rem;
-    font-weight:700;
-    margin:0;
+    font-weight: 700;
+    margin: 0;
     margin-right: 2.4rem;
- 
 }
-.buttons{
-    margin-top:4rem;
 
-
-  margin-left: 15.1rem;
-
-
+.buttons {
+    margin-left: 15.1rem;
 }
-.button-nav{
+
+.button-nav {
     padding-left: 3.3rem;
     padding-right: 3.3rem;
     padding-top: 1.1rem;
-    padding-bottom:1.1rem;
-margin:0
-    
+    padding-bottom: 1.1rem;
+    margin: 0
 }
+
+@media only screen and (min-width:1550px) {
+    .container {
+        width: auto;
+        margin-left:clamp(10rem, 8vw, 18rem);
+        margin-right:clamp(10rem, 8vw, 18rem);
+        justify-content: space-between;
+    }
+    .navbar-container{
+        
+        align-items: center;
+    }
+  .logo{
+    margin-left: 0;
+  }
+   
+  }
 
 @media only screen and (max-width:900px) {
+    .navbar-container{
+       width: auto;
+    }
+    .logo{
+        margin-right: auto;
+    }
+    .links {
+        display: none;
+    }
 
- .links{
-    display:none;
- }   
- .buttons{
-    margin:auto
- }
- .navbar-container{
-    width:100vw;
- }
+    .buttons {
+        margin: 0;
+        
+    }
+    .button-nav{
+      margin-right: 0; 
+    }
+
+    .container {
+        margin-left:clamp(1rem, 6vw, 8rem);
+        margin-right:clamp(1rem, 6vw, 8rem);
+    }
 }
+
+@media only screen and (max-width:620px) {
+
+.login{
+    display: none;
+}
+}
+
+@media only screen and (max-width:420px) {
+
+    .login{
+        display: none;
+    }
+    .button-nav{
+        padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    }
+    }

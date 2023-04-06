@@ -9,16 +9,16 @@ const Story = () => {
     <Page
       idProp={"Resources"}
       text={Text.story}
+      layout="layout story-layout container"
       textProp="story-text"
-      layout="layout story-layout"
       topTextProp="story-top"
       buttonStyleProp="story-button"
       titleProp="story-title"
+      subtitleProp="story-subtitle"
       imgContainerStyle="image-story"
       imgStyle="image"
       line={<Line />}
       numbers={<CountIt />}
-      subtitleProp="story-subtitle"
     />
   );
 };

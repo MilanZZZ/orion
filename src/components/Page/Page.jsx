@@ -1,8 +1,23 @@
-import React from 'react';
-import './Page.css';
-import images from '../../constants/Images/images';
+import React from "react";
+import "./Page.css";
+import images from "../../constants/Images/images";
 
-const Page = ({line, numbers,button,text, imgStyle, imgContainerStyle, layout, titleProp, textProp, buttonContainerProp, subtitleProp, buttonStyleProp, topTextProp, idProp}) => {
+const Page = ({
+  line,
+  numbers,
+  button,
+  text,
+  imgStyle,
+  imgContainerStyle,
+  layout,
+  titleProp,
+  textProp,
+  buttonContainerProp,
+  subtitleProp,
+  buttonStyleProp,
+  topTextProp,
+  idProp,
+}) => {
   return (
     <div className={`${layout}`} id={idProp}>
       {text.map((text, index) => (
@@ -22,13 +37,13 @@ const Page = ({line, numbers,button,text, imgStyle, imgContainerStyle, layout, t
               {button}
             </div>
           </div>
-          <div className={`${imgContainerStyle}`}>
+          <div className={`${imgContainerStyle} image-container`}>
             <img className={`${imgStyle}`} src={text.imgUrL} alt="image" />
           </div>
         </>
       ))}
     </div>
   );
-}
+};
 
-export default Page
+export default Page;

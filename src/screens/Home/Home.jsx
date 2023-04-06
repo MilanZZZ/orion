@@ -7,7 +7,7 @@ const Home = () => {
     <Page
       idProp={"Home"}
       text={Text.home}
-      layout="layout home-layout"
+      layout="layout home-layout container"
       textProp="text home-text"
       titleProp="title-size"
       imgContainerStyle="image-home"

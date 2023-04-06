@@ -6,7 +6,7 @@
     align-items: center;
     justify-items: flex-start;
     background-color: var(--background-color);
-    margin-left:15rem;
+    
   
 
 }
@@ -22,4 +22,20 @@
 .imagine:hover{
     filter: contrast(100%) grayscale(0);
     scale: 1.1;
+}
+
+@media only screen and (max-width:900px) {
+    .image-row{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
+
+
+    }
+    .imagine{
+       
+        margin: 1rem;
+        filter: grayscale(0) contrast(1);
+        
+    }
 }

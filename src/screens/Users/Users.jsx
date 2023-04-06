@@ -10,7 +10,7 @@ const Users = () => {
     images.zoover,
   ];
   return (
-    <div className="image-row">
+    <div className="image-row container">
       {imageList.map((img, index) => (
         <div className="imagine" key={`id-${index}`}>
           <img className={`image`} src={img} alt="image" />

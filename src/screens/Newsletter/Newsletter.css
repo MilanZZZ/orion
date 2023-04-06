@@ -1,7 +1,5 @@
 .image-news {
-    /* --width:70vw;
-    width: var(--width);
-    height: var(--width * 0.946) */
+ 
     width: 42.5rem
 }
 
@@ -24,9 +22,11 @@
     letter-spacing: 0.45em;
     text-transform: uppercase;
 }
+.text-news{
 
+}
 .news-title {
-    width: 100%;
+   
     align-self: center;
     text-align: center;
     margin-bottom: 8.2rem;
@@ -41,7 +41,8 @@
 }
 
 .subtitle-news {
-    font-weight: bold;
+    font-weight: 500;
+    width: 66.5rem;
 }
 
 .button-news {
@@ -87,4 +88,41 @@ input::-moz-placeholder {
 
 :-ms-input-placeholder {
     color: black;
+}
+
+@media only screen and (max-width:900px) {
+
+   .image-news{
+    display: none;
+   }
+.subtitle-news{
+    width: 30rem;
+   align-self: center;
+}
+.news-title{
+    margin-bottom: 2rem;
+}
+.news-form-container{
+    width: auto;
+   margin-bottom: 1rem;
+    
+   align-self: center;
+   
+    
+}
+.news-form{
+    font-size: 1.8rem;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   
+}
+.button-news{
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
 }

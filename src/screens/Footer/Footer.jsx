@@ -6,7 +6,9 @@ const FooterButton = [images.facebook, images.twitter, images.linkedin];
 
 const Footer = () => {
   return (
-    <div className="footer-container">
+    <div className="background-blue">
+
+    <div className="footer-container container">
       <div className="columns">
 
 
@@ -31,8 +33,8 @@ const Footer = () => {
           {["Our Agents", "Member Stories", "Video", "Free Trial"].map(
             (value) => (
               <a className="values">{value}</a>
-            )
-          )}
+              )
+              )}
         </div>
 
         <div className="resources-column">
@@ -40,8 +42,8 @@ const Footer = () => {
           {["Partnerships", "Terms of use", "Privacy", "Sitemap"].map(
             (value) => (
               <a className="values">{value}</a>
-            )
-          )}
+              )
+              )}
         </div>
 
         <div className="resources-column add-dis">
@@ -55,6 +57,7 @@ const Footer = () => {
         Copyright @MilanWebDev All rights reserved.
       </div>
     </div>
+              </div>
   );
 };
 
