@@ -1,133 +1,219 @@
+.footer-button {
 
-.footer-button{
-    
     border-radius: 0.4rem;
     border: none;
     padding-left: 1.1rem;
     padding-right: 1rem;
     padding-top: 0.8rem;
-    padding-bottom:0.8rem;
+    padding-bottom: 0.8rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
 
-    
+
 }
 
-.button-container :nth-child(2){
+.footer-button:hover {
+    background-color: var(--orange-color);
+}
+
+.footer-button:hover .image-footer {
+    filter: invert(100%);
+
+}
+
+
+
+.button-container :nth-child(2) {
     padding-left: 0.853rem;
     padding-right: 0.865rem;
     padding-top: 1rem;
-    padding-bottom:0.9rem;
+    padding-bottom: 0.9rem;
 }
-.button-container :nth-child(3){
+
+.button-container :nth-child(3) {
     padding-left: 0.847rem;
     padding-right: 0.853rem;
     padding-top: 0.9rem;
-    padding-bottom:0.9rem;
-}
-.image{
- 
- 
+    padding-bottom: 0.9rem;
 }
 
-.footer-container{
+.image {}
+
+.image-footer {
+    scale: 1.3;
+}
+
+.footer-container {
     background-color: #0B1B35;
-    color:white;
-    height: 41.6rem;
-  
+    color: white;
+
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: "AgeoPersonalUse";
 
+
 }
-.resources-column{
+.background-blue{
+    background-color: #0B1B35;
+}
+.resources-column {
     display: flex;
     flex-direction: column;
-   
+    margin-top: 5.3rem;
+ 
+
+
 
 }
-.values{
+
+.values {
     font-family: "AgeoPersonalUse";
-    font-size:1.6rem;
+    font-size: 1.6rem;
     line-height: 100%;
     margin: 0;
+    width: 11.4rem;
     font-weight: 300;
     margin-bottom: 2.8rem;
-    color:#F2F2F2;
-}
-.columns{
-    display: flex;
-    flex-direction: row;
-    column-gap: 17.6rem;
+    color: #F2F2F2;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
 }
 
-.text-margin{
-  
+.values:hover {
+    scale: 1.05
 }
-.button-container{
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    column-gap: 16.4rem;
+
+    margin-bottom: 5.6rem
+}
+
+.text-margin {}
+
+.button-container {
     display: flex;
     column-gap: 1.5rem;
 }
-.values-subtitle{
+
+.values-subtitle {
     font-family: "AgeoPersonalUse";
     font-size: 1.6rem;
     line-height: 100%;
     width: 23.6rem;
     margin-top: 2.6rem;
     margin-bottom: 6.4rem;
-}
-.footer-logo{
 
 }
-.div-line{
-    width:117rem;
-    background-color: #EDEDED ;
+
+.footer-logo {
+    width: 13.7rem;
+    margin-top: 4rem;
+
+}
+
+.div-line {
+    width: 117rem;
+    background-color: #EDEDED;
     height: 0.1rem;
 }
-.copyright{
-    color:#F2F2F2;
+
+.copyright {
+    color: #F2F2F2;
     font-size: 1.6rem;
     margin-top: 4rem;
-  
+    margin-bottom: 3.9rem;
+
 }
-.logo-column{
+
+.logo-column {
     align-self: flex-start;
+    margin-right: ;
 }
 
-.resources{
+.resources {
     font-size: 2rem;
-    margin-top: 5.3rem;
-    margin-bottom:3.9rem
-}
 
-.footer-form{
-    height: 4rem;
-    width:14rem;
-    padding-left:1.2rem;
-    border-radius: 1rem 0rem 0rem 1rem;
-    border:none;
+    margin-bottom: 3.9rem
+}
+.values:nth-child(5){
+    margin-bottom: 0;
+}
+.footer-form {
+
+    width: 100%;
+    padding-left: 1.2rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.2rem;
+    border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
+    border: none;
     background-color: #F2F2F2;
     font-size: 1.2rem;
     font-family: "Mulish";
     font-weight: 500;
 
 }
-.submit{
-    border:none;
+
+.add-dis {}
+
+.submit {
+    position: absolute;
+    border: none;
     background-color: #F2F2F2;
-    height:4.2rem;
-    padding-right: 2rem;
+    height: 1.6rem;
+    width: 1.6rem;
     margin: 0;
-    border-radius: 0rem 1rem 1rem 0rem;
-    
-    
-    
+    padding: 0;
+    border-radius: 50%;
+    right: 1.2rem;
+    top: 1.2rem;
+    cursor: pointer;
+
+
+
+
 }
-.form-container{
+
+.add-dis {
+    padding-left: 4rem;
+}
+
+.form-container {
+    width: 17.4rem;
+
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     color: #514040;
-   
+
+}
+
+@media only screen and (max-width:900px) {
+
+    .columns{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 0;
+        margin:0;
+    }
+    .form-container{
+        width:19rem;
+        margin:0rem;
+        margin-bottom:2rem;
+
+    }
+    .add-dis{
+        padding: 0;
+    }
+    .div-line{
+        width: 100%;
+    }
 }

@@ -14,7 +14,7 @@ const home = [
 const services = [
     {
         topTitle: "WHY CHOOSE US",
-        title: "Faster,eaiser,more convenienty",
+        title: "Faster, easier,  more convenient",
         subtitle: "",
         buttonText: "Get Started",
         imgUrL: images.lady_laptop,
@@ -29,7 +29,7 @@ const story = [{
 }]
 const performance = [{
     topTitle: "Search Engine Optimization",
-    title: "Improve Performance and Growth your Website",
+    title: "Improve Performance and Growth of your Website",
     subtitle: "Our goal is top at the heart of creativity services industry as a digital creator. In has a after comment",
     buttonText: "Explore Our SEO's Strategies",
     imgUrL: images.graph,

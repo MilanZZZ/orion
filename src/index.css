@@ -4,49 +4,106 @@
 @font-face {
   font-family: "AgeoPersonalUse";
   src: local("AgeoPersonalUse"),
-   url("./assets/fonts/AgeoPersonalUse.otf") format("truetype");
- 
-  }
-  @font-face {
-    font-family: "AgeoPersonalUseBold";
-    src: local("AgeoPersonalUseBold"),
-     url("./assets/fonts/AgeoPersonalUse-ExtraBold.otf") format("truetype");
-   
-    }
+    url("./assets/fonts/AgeoPersonalUse.otf") format("truetype");
 
-  .font-face-Regular {
-    font-family: "AgeoPersonalUse";
-   }
-
-.font-mullish{
-font-family: 'Mulish', sans-serif;
 }
 
-.font-inter{
-  font-family: 'Inter', sans-serif;
-  }
+@font-face {
+  font-family: "AgeoPersonalUseBold";
+  src: local("AgeoPersonalUseBold"),
+    url("./assets/fonts/AgeoPersonalUse-ExtraBold.otf") format("truetype");
 
-body{
+}
+
+.font-face-Regular {
+  font-family: "AgeoPersonalUse";
+}
+
+.font-mullish {
+  font-family: 'Mulish', sans-serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
 
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 
+
+  overflow-x: hidden;
+  background-color: var(--background-color);
+
+}
+
+:root {
+  --orange-color: #FF6600;
+  --main-dark-color: #0B1B35;
+  --black-color: #000000;
+  --background-color: #FFFFFF;
+  --background-secondary: #F9F9F9;
+
+}
+
+html {
+  font-size: 0.69vw;
+  scroll-behavior: smooth;
+
+
+}
+
+@media only screen and (min-width:1550px) {
+
+  html {
+    font-size: 11px
+  }
+
+ 
+
   
-    overflow-x: hidden;
-    background-color: var(--background-color);
 
-   }
-:root{
-    --orange-color: #FF6600;
-    --main-dark-color: #0B1B35;
-    --black-color: #000000;
-    --background-color: #FFFFFF;
-    --background-secondary: #F9F9F9;
+ 
+}
 
-   }
-   html{
-    font-size: 0.69vw; 
-    scroll-behavior: smooth;
+@media only screen and (max-width:900px) {
+  html{
+    font-size:10px;
     
-   }
+    
+  }
+  .image-container{
+    width: auto;
+    overflow: hidden;
+    margin:0;
+    margin-top: 2rem;
+}
+.image-home{
+  margin-top: 8rem;
+}
+  .layout{
+    flex-direction: column-reverse;
+    
+    
+    
+
+  }
+  
+   
+  .layout-reverse{
+    flex-direction: column;
+   
+    
+  }
+  .layout-secondary{
+    flex-direction: column-reverse;
+    
+    
+  }
+  .footer-form{
+    
+  }
+ 
+}

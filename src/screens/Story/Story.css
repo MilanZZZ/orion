@@ -1,64 +1,170 @@
-.image-story{
+.image-story {
     /* --width:70vw;
     width: var(--width);
     height: var(--width * 0.946) */
     width: 73.5rem;
     margin-left: 0rem;
     overflow: hidden;
-    margin-right: 15rem;
+
+    margin-bottom: 27.3rem;
+    margin-top: 21.9rem;
 
 
 }
-.story-subtitle{
+
+.story-subtitle {
     width: 41rem;
 }
-.story-title{
-width:100%;
+
+.story-title {
+    width: 100%;
 }
-.story-text{
-    margin-left: 15rem;
+
+.story-text {
+
     margin-right: 0;
     width: 44.1rem;
+    overflow: visible;
+    cursor: pointer;
 }
-.line{
-    width:12.1rem;
+
+.line {
+    width: 12.1rem;
     height: .1rem;
     background-color: #262626;
     margin-top: 2.5rem;
-    margin-bottom:1rem;
- 
+    margin-bottom: 1rem;
+    font-family: Inter
 }
-.story-top{
+
+.story-top {
     letter-spacing: 0.45rem;
     margin-bottom: 1rem;
+    margin-top: 24.8rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.45em;
 }
-.story-button{
+
+.story-button {
     padding-left: 5.2rem;
     padding-right: 5.1rem;
+    margin-bottom: 24.1rem;
 
 }
 
-.value{
-    display:flex;
-    margin-top:4.4rem;
+.value {
+    display: flex;
+    margin-top: 4.4rem;
     column-gap: 2.8rem;
-    margin-bottom:6rem;
+    margin-bottom: 6rem;
     font-family: "AgeoPersonalUse";
     font-size: 1.8rem;
     font-weight: 600;
-  
+
 }
-.text-value{
+
+.number:hover {
+    scale: 1.1;
+    color: var(--orange-color);
+
+}
+
+.text-value {
     line-height: 2.16rem;
     margin-top: 0.5rem;
 
 }
-.team{
-color:#4F4F4F
+
+.team {
+    color: #4F4F4F
 }
-.number{
+
+.number {
     font-size: 3rem;
     font-family: "Inter";
     font-weight: bolder;
     line-height: 3.6rem;
+    transition: all 0.3s;
+}
+
+@media only screen and (max-width:900px) {
+    .image-container {
+        width: auto;
+        overflow: hidden;
+        margin: 0;
+        margin-top: 2rem;
+    }
+
+    .text {
+
+        margin-top: 2rem;
+        align-self: center;
+
+    }
+
+    .top-text {
+        align-self: center;
+        margin-top: 2rem
+    }
+
+    .title {
+        text-align: center;
+        font-size: 4rem;
+        line-height: 4.2rem;
+        text-align: center;
+        font-weight: 500;
+    }
+
+
+    .button-container-home {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        margin: 0;
+    }
+
+    .story-subtitle {
+        width: auto;
+
+    }
+
+    .value {
+        width: auto;
+        align-self: center;
+
+    }
+
+    .text-value {
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+
+    .story-button {
+        align-self: center;
+    }
+
+    .button-layout {
+        align-self: center;
+    }
+
+    .story-button {
+        margin-bottom: 2rem;
+
+    }
+
+    .story-subtitle {
+        margin-left: 5.5rem;
+        margin-right: 5.5rem;
+    }
+
+
+
+    
+
+
 }

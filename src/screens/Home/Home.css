@@ -1,33 +1,95 @@
-
-
-.image-home{
-    width: 76.5rem;
-    margin-right: 0rem;
+.image-home {
+    width: 70rem;
     overflow: hidden;
+   justify-self: flex-end;
+ 
+
+
+}
+
+.home-layout {
+    column-gap: 2rem;
     
+
 }
-.home-text{
+
+.home-text {
     row-gap: 2rem;
-    margin-left: 15rem;
+    width: 60rem;
+
+    margin-bottom: 5.2rem;
+    margin-top: 15.6rem;
+
 }
-.button-container-home{
+
+.button-container-home {
     margin-top: 3.7rem;
 }
-.home-subtitle{
-    width: 55.5rem;
-}
-.title-size{
- 
-        font-family: 'AgeoPersonalUseBold';
-        font-style: bolder;
-        color: var(--main-dark-color);
-        font-weight: 200;
-        font-size: 7.4rem;
-        line-height: 8.2rem;
-        text-align: start;
-        width: 49.2rem;
-        overflow:hidden;
-     
-        
+
+.home-subtitle {}
+
+.title-size {
+
+    font-family: 'AgeoPersonalUseBold';
+    font-style: bolder;
+    color: var(--main-dark-color);
+    font-weight: 200;
+    font-size: 7.4rem;
+    line-height: 8.2rem;
+    text-align: start;
+
+
+
+
 }
 
+@media only screen and (max-width:900px) {
+    
+
+    .text {
+        width: auto;
+        margin-top: 0;
+
+    }
+
+    .title-size {
+        text-align: center;
+        font-size: 4rem;
+        line-height: 4.2rem;
+        text-align: center;
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+    .demo-button{
+        margin:1rem 0;
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+
+    }
+.button-container-home{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin: 0;
+}
+}
+
+@media only screen and (max-width:620px) {
+
+    .login {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:420px) {
+
+    .login {
+        display: none;
+    }
+
+}

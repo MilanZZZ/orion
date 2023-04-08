@@ -1,14 +1,45 @@
 .image-row{
-    height:14rem;
-    overflow: hidden;
+  
+  
     display:grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, auto);
     align-items: center;
-    justify-items: center;
-    background-color: var(--background-secondary);
+    justify-content: space-between;
+    background-color: var(--background-color);
+    padding: 0;
+
+    
+  
 
 }
 
 .imagine{
-    width:20rem;
+    width:15.4rem;
+    
+    filter: contrast(10%) grayscale(1);
+    transition: filter 0.6s ease-in-out, scale 0.4s ease-in-out;
+    
+
+}
+
+
+.imagine:hover{
+    filter: contrast(100%) grayscale(0);
+    scale: 1.1;
+}
+
+@media only screen and (max-width:900px) {
+    .image-row{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
+
+
+    }
+    .imagine{
+       
+       
+        filter: grayscale(0) contrast(1);
+        
+    }
 }

@@ -1,5 +1,5 @@
 .solutions-container{
-    height: 100vh;
+
    
     display:flex;
     flex-direction: column;
@@ -9,6 +9,7 @@
 .solution-top{
     margin-bottom: 2.9rem;
     font-weight: 700;
+    margin-top: 5.3rem;
 
 
     letter-spacing: 0.45em;
@@ -23,6 +24,7 @@
     display:grid;
     grid-template-columns: repeat(3,1fr);
     gap:4.8rem;
+    margin-bottom: 10.2rem;
 }
 
 .card{
@@ -34,6 +36,11 @@
     border: 0.1rem #E0E0E0 solid;
     justify-content: center;
     align-items: center;
+    box-shadow: 0.1rem 0.1rem 0.9rem rgba(0, 0, 0, 0.1);
+    transition: scale 0.4s ease-in-out
+}
+.card:hover{
+scale:1.1;
 }
 .card-text{
     font-family: 'Mulish';
@@ -45,13 +52,21 @@ margin-top:3.5rem;
 margin-bottom: 3rem;
 }
 .card-image{
-    width:11.7rem
+    width:11.7rem;
+  
 }
 .card-subtext{
     font-family: 'Mulish';
 font-style: normal;
-font-weight: 700;
+font-weight: 500;
 font-size: 2rem;
 line-height: 2.5rem;
 text-align: center;
+}
+
+@media only screen and (max-width:900px) {
+    .cards{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3,1fr);
+      }
 }
