@@ -1,13 +1,15 @@
 .image-home {
-    width: 76.5rem;
+    width: 70rem;
     overflow: hidden;
    justify-self: flex-end;
+ 
 
 
 }
 
 .home-layout {
     column-gap: 2rem;
+    
 
 }
 
