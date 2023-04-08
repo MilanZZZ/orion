@@ -1,18 +1,19 @@
 .image-home {
     width: 76.5rem;
     overflow: hidden;
-   
+   justify-self: flex-end;
 
 
 }
 
 .home-layout {
     column-gap: 2rem;
+
 }
 
 .home-text {
     row-gap: 2rem;
-    width: 59rem;
+    width: 60rem;
 
     margin-bottom: 5.2rem;
     margin-top: 15.6rem;
