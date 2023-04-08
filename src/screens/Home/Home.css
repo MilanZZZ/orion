@@ -1,11 +1,14 @@
 .image-home {
     width: 76.5rem;
     overflow: hidden;
+   
 
 
 }
 
-.home-layout {}
+.home-layout {
+    column-gap: 2rem;
+}
 
 .home-text {
     row-gap: 2rem;

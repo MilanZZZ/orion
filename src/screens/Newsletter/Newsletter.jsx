@@ -14,7 +14,8 @@ const Newsletter = () => {
         subtitleProp="subtitle-news"
         buttonStyleProp="button-news"
         textProp='text-news'
-        numbers={<EmailForm />}
+        button={<EmailForm />}
+        buttonContainerProp='button-container-news'
       />
     </div>
   );

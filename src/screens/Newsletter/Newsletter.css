@@ -51,7 +51,10 @@
     padding-top: 1.9rem;
     padding-bottom: 1.9rem;
 }
-
+.button-container-news{
+    display:flex;
+    flex-direction: column-reverse;
+}
 .news-form {
 
 
@@ -103,16 +106,18 @@ input::-moz-placeholder {
     margin-bottom: 2rem;
 }
 .news-form-container{
-    width: auto;
-   margin-bottom: 1rem;
-    
-   align-self: center;
-   
-    
+    margin-bottom: 1rem;
+    width:auto;
+     
+}
+.button-container-news{
+justify-content: center;
+align-items: center;
 }
 .news-form{
     font-size: 1.8rem;
-    padding-left: 1.5rem;
+    
+    width: auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
    
